@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./images/Logos/wind.png">
+    <link rel="stylesheet" type="text/css" href="./styles/scss/music.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet" />
+    <title>Music</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a href="" class="header__logo"><img src="./images/logos/logo.png" alt="Hiks"></img></a>
+                <div class="menu__icon"><span></span></div>
+                <nav class="header__menu menu">
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="./main.html" class="menu__link active">Home</a></li>
+                        <li class="menu__item"><a href="./live.html" id="1" class="menu__link">Live</a></li>
+                        <li class="menu__item"><a href="./music.html" class="menu__link">Music</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Shop</a>
+                            <span class="menu__arrow"></span>
+                            <ul class="menu__sub-list">
+                                <li><a class="menu__sub-link" href="#">Clothing</a></li>
+                                <li><a class="menu__sub-link" href="#">Accessories</a></li>
+                                <li><a class="menu__sub-link" href="#">Music</a></li>
+                                <li><a class="menu__sub-link" href="#">Specials</a></li>
+                                <li><a class="menu__sub-link" href="#">Sales</a></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="menu__active"></div>
+        </header>
+        <main class="main">
+            <section class="content">
+                <div class="content__container">
+                    <div class="content__rec">
+                        <div class="content__item">
+
+                            <div class="content__titel">Popular Songs</div>
+                            <div class="content__desc">
+                                <div class="titles"> The song's title</div>
+                                <div class="albums">Album</div>
+                            </div>
+                            <div class="rec">
+                                <div class="rec__songs">
+                                    <div class="song-item">
+                                        <div class="song__name">
+                                            Rendel
+                                        </div>
+                                        <div class="song__album">Future
+                                        </div>
+                                    </div>
+                                    <div class="song-item">
+                                        <div class="song__name">
+                                            Rendel
+                                        </div>
+                                        <div class="song__album">Future
+                                        </div>
+                                    </div>
+                                    <div class="song-item">
+                                        <div class="song__name">
+                                            Rendel
+                                        </div>
+                                        <div class="song__album">Future
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__text">
+                            <div class="content__titel">New Albums</div>
+                            <div class="rec">
+                                <div class="rec__albums">
+                                    <div class="album-item">
+                                        <div class="album__name"><img src="./images/Albums/albumPic1.png"><span
+                                                class="__name">Lorem
+                                                Impsum</span>
+                                        </div>
+                                        <div class="album__date"><span class="__date">28.03.2004</span>
+                                            <a href="#" class="listen">Listen</a>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="album-item">
+                                        <div class="album__name"><img src="./images/Albums/albumPic1.png"><span
+                                                class="__name">Lorem
+                                                Impsum</span>
+                                        </div>
+                                        <div class="album__date"><span class="__date">28.03.2004</span>
+                                            <a href="#" class="listen">Listen</a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__image"><img id="album" src="./images/Music/AlbumPicMus1.png" alt=""></div>
+                </div>
+
+            </section>
+            <sectin class="player">
+                <div class="player__container">
+                    <div class="player__content-left">
+                        <img src="./icons/player/player-previous.svg" id="prev"></img>
+                        <img class="img__src" src="./icons/player/player-play.svg" id="play"></img>
+                        <img src="./icons/player/player-next.svg" id="next"></img>
+                        <img src="./images/Music/AlbumPic1.png" id="albumSmall"></img>
+
+
+                        <span id="song__titel">Rendel
+
+                        </span>
+                        <img src="./icons/music/music-favourite.svg" id="favourite"></img>
+                        <img src="./icons/music/music-add.svg" id="add"></img>
+                        <img src="./icons/music/music-download.svg" id="download"></img>
+
+
+                    </div>
+                    <audio class="audio" src="./audio/RB Gimn.mp3"></audio>
+                    <div class="progress__case">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="player__content-right">
+                        <img src="./icons/music/music-mix.svg" id="mix"></img>
+                        <img src="./icons/music/music-repeat.svg" id="repeat"></img>
+                        <img src="./icons/music/music-volume.svg" id="vol"></img>
+                    </div>
+                </div>
+                <div class="volume" id="volCase"><input type="range" class="volume__item" /></div>
+            </sectin>
+            <section class="partners">
+                <div class="partners__container">
+                    <div class="partners__titel">
+                        Our Partners
+                    </div>
+                    <div class="partners__icons">
+                        <a href="">
+                            <img src="./images/Partners/yandexMusic.png" alt="">
+                        </a>
+                        <a href=""><img src="./images/Partners/spotify.png" alt=""></a>
+                        <a href=""><img src="./images/Partners/appleMusic.png" alt=""></a>
+                        <a href="">
+                            <img src="./images/Partners/deezer.png" alt="">
+                        </a></div>
+                    <div class="partners__text">You can listen to all our new songs on the platforms of our partners in
+                        high quality right after their release! List of our partners: Spotify, Yandex, Apple, Deezer.
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__items">
+                    <a href="#" class="footer__item"><img src="./images/Footer/platforms.png" alt=""></img></a>
+                </div>
+                <div class="footer__text">Copyright 2021 Hiks</div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./index.js">
+</script>
+
+</html>
